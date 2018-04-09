@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+
+.top-header .container {
+    margin-top: 10px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.logo {
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+    color: red;
+}
+
+.container li a {
+    text-decoration: none;
+}
+.navbar-right li{
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-right a {
+    font-size: 15px;
+    color: black;
+}
+
+.dropdown {
+    margin-right: 25px;
+}
+
+.login {
+    margin-right: 15px;
+    border-right: 2px solid #c2c2c2;
+    padding-right: 15px;
+}
+
+.register {
+    margin-right: 70px;
+}
+
+.form-group {
+    width: 250px;
+}
+

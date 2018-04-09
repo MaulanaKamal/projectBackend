@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+#navigasi {
+    margin: 25px 0px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    color: black;
+    
+}
+
+#navigasi > * {
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    
+}
+
+#navigasi li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0em 1em;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+#navigasi li a {
+    text-decoration: none;
+}
+
+.nav {
+    padding: 1em 0.8em;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav:before, .nav:after {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    content: '';
+    transition: all 0.3s ease;
+    opacity: 0;
+} 
+
+.nav:before {
+    right: 0;
+    top: 0;
+    border-right: 2px solid red;
+    border-top: 2px solid red;
+    transform: translate(-100%, 50%)
+}
+
+.nav:after {
+    left: 0;
+    bottom: 0;  
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+    transform: translate(100%, -50%)
+}
+
+.nav:hover:before, .nav:hover:after {
+    transform: translate(0%,0%);
+    opacity: 1;
+}
